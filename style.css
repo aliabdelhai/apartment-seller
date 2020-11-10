@@ -45,6 +45,7 @@ label{
      cursor: pointer;     
      outline: none;
 }
+
 .form-radio:checked::before
 {
      position: absolute;
@@ -54,6 +55,8 @@ label{
      content: '\02143';
      transform: rotate(40deg);
 }
+
+
 .form-radio:hover
 {
      background-color: #f7f7f7;
@@ -71,7 +74,9 @@ label{
     "i la a"
     "i lpr p"
     "i lr r"
-    "i lpark park";
+    "i lpark park"
+    "i lc cD";
+
     box-shadow: 1px 1px 3px #0a1612;
     margin: 20px;
     padding: 20px;
@@ -110,45 +115,65 @@ button:active{background-color: #443729;}
     border-radius: 5px;
 }
 
+
+
 .result>.label{
+    font-weight: bold;
+}
+
+.result>.l-contact{
+    grid-area: lc;
+    font-weight: bold;
+    color:rgb(72, 240, 215);
+}
+
+.result>.cont{
+    grid-area: cD;
     font-weight: bold;
 }
 
 .result>.l-addr{
     grid-area: la;
+    font-weight: bold;
 }
 
 .result>.l-price{
     grid-area: lpr;
+    font-weight: bold;
 }
 
 .result>.l-rooms{
     grid-area: lr;
+    font-weight: bold;
 }
 
 .result>.l-park{
     grid-area: lpark;
+    font-weight: bold;
 }
 
-.result>.l-immediate{}
 
 .result>.address{
     grid-area: a;
+    font-weight: bold;
 }
 
 .price{
     grid-area: p;
+    font-weight: bold;
 }
 
 .result>.rooms {
     grid-area: r;
+    font-weight: bold;
 }
 
 .result>.parking{
     grid-area: park;
+    font-weight: bold;
 }
 
-.result>.immediate{}
+
 
 .no-match{
     color: #DD6300;
@@ -159,3 +184,6 @@ button:active{background-color: #443729;}
     border-radius: 5px;
     font-family: 'Raleway', sans-serif;
 }
+
+
+
